@@ -20,6 +20,10 @@ Print the output.
 
 ## PROGRAM:
 ```
+#To write a python program for reading content from a CSV file.
+#eveloped by: PERARASU M
+#Register Number: 212222100033
+
 import pandas as pd
 df=pd.read_csv("nba.csv")
 print(df.head(10))
